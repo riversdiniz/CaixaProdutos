@@ -6,9 +6,8 @@ public class Caixa {
         int qtdProdutos = 5;
         int registro = 0;
 
-        do {
-            registro++;
-            System.out.println("O caixa registrou o produto " + registro);
-        } while (registro < qtdProdutos);
+        for (int i = 0; i < qtdProdutos; i++) {
+            System.out.println("O caixa refistrou o produto" + i);
+        }
     }
 }
