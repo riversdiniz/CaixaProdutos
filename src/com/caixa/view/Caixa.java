@@ -33,9 +33,17 @@ public class Caixa {
         produtos[0] = prod1;
         produtos[1] = prod2;
 
-        for (Produto prod : produtos) {
-            System.out.println(prod.toString());
-        }
+        // for (Produto prod : produtos) {
+        // System.out.println(prod.toString());
+        // }
+
+        // 10 Corredores com Três prateleiras cada
+        Produto[][] localizacaoProduto = new Produto[10][3];
+
+        localizacaoProduto[2][1] = prod1;
+        localizacaoProduto[2][2] = prod2;
+
+        System.out.println(localizacaoProduto[2][1].getNome());
 
     }
 }
