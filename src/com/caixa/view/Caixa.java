@@ -1,4 +1,4 @@
-package com.caixa;
+package com.caixa.view;
 
 public class Caixa {
     public static void main(String[] args) {
