@@ -33,8 +33,8 @@ public class Caixa {
         produtos[0] = prod1;
         produtos[1] = prod2;
 
-        for (int i = 0; i < produtos.length; i++) {
-            System.out.println(produtos[i].toString());
+        for (Produto prod : produtos) {
+            System.out.println(prod.toString());
         }
 
     }
